@@ -1,0 +1,91 @@
+body{
+  background-color : #434a56;
+
+}
+#desc{
+  position: relative;
+  top: 10px;
+  color: white;
+  font-size: 10px;
+  font-family: Courier New;
+
+}
+#up{
+  display: inline-block;
+  transform: rotate(90deg);
+  position : relative;
+  top: 3em;
+  right: -33.5em;
+  font-size: 36px;
+  font-size: 36px;
+  color:#f2f7ff;
+  height: 60px;
+  width: 60px;
+  border-color: #f2f7ff;
+  background-color : #434a56;
+  border-radius: 15px;
+}
+#down{
+  display: inline-block;
+  transform: rotate(-90deg);
+  position : relative;
+  top: 7em;
+  right: -31.7em;
+  font-size: 36px;
+  color:#f2f7ff;
+  height: 60px;
+  width: 60px;
+  border-color: #f2f7ff;
+  background-color : #434a56;
+  border-radius: 15px;
+}
+#left{
+
+  display: inline-block;
+  font-size: 36px;
+  position : relative;
+  top: 5em;
+  right: -28em;
+  color:#f2f7ff;
+  height: 60px;
+  width: 60px;
+  border-color: #f2f7ff;
+  background-color : #434a56;
+  border-radius: 15px;
+}
+#right{
+  display: inline-block;
+  position : relative;
+  top: 5em;
+  right: -30.1em;
+  transform: rotate(180deg);
+  font-size: 36px;
+  color:#f2f7ff;
+  height: 60px;
+  width: 60px;
+  border-color: #f2f7ff;
+  background-color : #434a56;
+  border-radius: 15px;
+}
+input#status{
+  background-color: #1f2b3d;
+  position: relative;
+  display: block;
+  color: #0cd62b;
+  border: none;
+  right:-99em;
+  top: 1em;
+}
+.Temp{
+  color: #f2f7ff;
+  font-family: Verdana;
+
+}
+.light{
+  color: #f2f7ff;
+  font-family: Verdana;
+}
+.pos{
+  color: #f2f7ff;
+  font-family: Verdana;
+}

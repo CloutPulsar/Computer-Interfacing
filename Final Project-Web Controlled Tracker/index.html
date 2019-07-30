@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cpe 185 Solar Panel Control Systems</title>
+  <link rel="stylesheet" href="style.css">
+  <script type ="text/javascript" src= "jquery.js"></script>
+  <script type ="text/javascript" src= "main.js"></script>
+</head>
+  <body>
+    <div id = "desc">
+        <h1>Description: Web Controlled Solar Tracker with displayed readings<h1>
+        <br></br>
+      </div>
+    <div class = "initiate">
+      <input type="button" onclick="auto();" id="auto" value="Automatic Control" >
+      <input type="button" onclick="manual();" id="manual" value="Manual Control">
+    </div>
+    <div class = "buttons">
+      <input type="button" onclick="control('up','main.php');"    id="up"value="<"   disabled />
+      <input type="button" onclick="control('down','main.php');"  id="down"value="<" disabled/>
+      <input type="button" onclick="control('left','main.php');"  id="left"value="<" disabled/>
+      <input type="button" onclick="control('right','main.php');" id="right"value="<"disabled/>
+    </div>
+    <input type="text" id="status" value="" readonly="readonly" />
+    <h3 class = "Temp"> LDR1(Analog): <div id="tempval"> </div></h1>
+    <h3 class = "light"> LDR2(Analog): <div id="lightval"> </div></h3>
+    <h3 class = "pos">
+      LDR3(Analog): <div id="xval"> </div>
+      <br></>
+      LDR4(Analog): <div id="yval"> </div>
+    </h3>
+
+
+  </body>
+</html>
